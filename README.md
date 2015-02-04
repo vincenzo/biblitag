@@ -14,3 +14,5 @@ So, at the moment I am keeping in this repository a modified version of the pars
 
 ## Code
 
+My JS is probably not great. In over a decade of Web Development, I carefully and wilfully avoided it, delegating it to others. 
+This time I could not do any different. It surely is not a coincendence that the only time I do not refuse to write Javascript code is when it has to do with God my Lord.
