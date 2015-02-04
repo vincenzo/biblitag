@@ -27,14 +27,18 @@ Biblitag.prototype.parse = function (s) {
 };
 
 Biblitag.prototype.buildLink = function(osis, version, anchor, provider) {
+  var a = document.createElement('a');
+  var linkText = document.createTextNode(anchor.replace(/ /gi, '\x1f\x1e'));
+  a.appendChild(linkText);
   switch(provider) {
     case 'biblegateway':
-      return this.biblegateway(osis, version, anchor);
-    default:
+      a = this.biblegateway(a, osis, version);
   }
+  return a.outerHTML;
 }
 
-Biblitag.prototype.biblegateway = function(osis, version, anchor) {
-  return '<a href="https://www.biblegateway.com/passage/?search=' + osis + '&version=' + version + '">' + anchor.replace(/ /gi, '\x1f\x1e') + '</a>';
+Biblitag.prototype.biblegateway = function(a, osis, version) {
+  a.href = 'https://www.biblegateway.com/passage/?search=' + osis + '&version=' + version;
+  return a;
 };
 
