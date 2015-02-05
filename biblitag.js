@@ -1,5 +1,9 @@
 /**
  * Constructor.
+ * @param translation
+ *  The default Bible version to use when one is not specified with a reference.
+ * @param provider
+ *  The default online provider to use (e.g. Bible Gateway [biblegateway]).
  * @constructor
  */
 var Biblitag = function (translation, provider) {
