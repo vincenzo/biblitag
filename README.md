@@ -1,7 +1,7 @@
 # Biblitag
 
 In short, this is an attempt to build something similar to [RefTagger](http://reftagger.com/).
-The project's current aim is to provide a tool for the Italian language, but in theory the `biblitag.js` is language-agnostic and can leverage the multilinguality of the [`BCV` parser]((https://github.com/openbibleinfo/Bible-Passage-Reference-Parser) being used.
+The project's current aim is to provide a tool for the Italian language, but in theory the `biblitag.js` is language-agnostic and can leverage the multilinguality of the [BCV parser]((https://github.com/openbibleinfo/Bible-Passage-Reference-Parser) being used.
 
 All this initial version of `Biblitag` does is to identify Bible references (e.g. Giovanni 3:16) and "linkify" them (e.g. [Giovanni 3:16](https://www.biblegateway.com/passage/?search=John.3.16&version=NR2006)).
 
