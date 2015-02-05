@@ -62,4 +62,4 @@ or
 <script type='text/javascript' src="/path/to/de_bcv_parser.min.js"></script>
 ```
 
-or any other available in the [Bible-Passage-Reference-Parser](github.com/openbibleinfo/Bible-Passage-Reference-Parser)'s repo.
+or any other available in the [Bible-Passage-Reference-Parser](http://github.com/openbibleinfo/Bible-Passage-Reference-Parser)'s repo.
