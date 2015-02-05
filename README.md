@@ -23,6 +23,7 @@ To use `Biblitag` you will require `jQuery` (probably an overkill, I am open to 
 <script type='text/javascript' src="http://vincenzo.github.io/biblitag/bcv/it_bcv_parser.min.js"></script>
 <script type='text/javascript' src="http://vincenzo.github.io/biblitag/biblitag.js"></script>
 <script type='text/javascript'>
+    <!-- NR2006 is the default Bible translation, biblegateway the defualt online Bible provider, and 'body' the default target in the HTML document -->
     BIBLITAG.init();
 </script>
 ```
