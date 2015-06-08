@@ -105,7 +105,7 @@ var BIBLITAG = BIBLITAG || (function($){
       $(window).load(function () {
         var bt = new Biblitag(translation, provider);
         target = target || 'body';
-        $(target).html(bt.parse($(target).html()));
+        $(target).each($(this).html(bt.parse($(this).html())));
       });
     }
   }
