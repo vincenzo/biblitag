@@ -28,7 +28,7 @@ function biblitag_enqueue_scripts() {
 function biblitag_init_script() {
 ?>
   <script type='text/javascript'>
-    BIBLITAG.init(null, null, '#content');
+    BIBLITAG.init(null, null, '.entry-content');
   </script>
 <?php
 }
