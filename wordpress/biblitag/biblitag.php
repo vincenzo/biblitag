@@ -4,7 +4,7 @@
  * Plugin Name: Biblitag
  * Plugin URI: https://github.com/vincenzo/biblitag
  * Description: This Plugin allows to linkify Bible reference in a text.
- * Version: 0.5
+ * Version: 0.8
  * Author: Vincenzo Russo
  * Author URI: http://artetecha.com
  *
