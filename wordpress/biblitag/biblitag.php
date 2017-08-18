@@ -16,11 +16,11 @@
 function biblitag_enqueue_scripts() {
   wp_enqueue_script(
     'bcv',
-    'http://vincenzo.github.io/biblitag/bcv/it_bcv_parser.min.js'
+    'https://vincenzo.github.io/biblitag/bcv/it_bcv_parser.min.js'
   );
   wp_enqueue_script(
     'biblitag',
-    'http://vincenzo.github.io/biblitag/biblitag.js',
+    'https://vincenzo.github.io/biblitag/biblitag.js',
     array('jquery')
   );
 }
